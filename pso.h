@@ -14,6 +14,11 @@
    You should have received a copy of the GNU General Public License
    along with this program.  If not, see
    <http://www.gnu.org/licenses/>.
+   
+ Modified by Witold Czajewski 2020:
+   - added multithreaded processing
+   - improved stop condition (the algorithm will stop if no improvement is found within a number of steps)
+   - added mechanism of passing date (images) to the optimization routine
 */
 
 
