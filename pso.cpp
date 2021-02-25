@@ -239,7 +239,7 @@ pso_settings_t *pso_settings_new(std::vector<double> range_lo, std::vector<doubl
 }
 
 
-pso_settings_t *pso_settings_new(int dim, double range_lo, double goal, double range_hi, int swarm_size, int max_steps, double delta, double low_delta_count_limit) {
+pso_settings_t *pso_settings_new(int dim, double range_lo, double range_hi, double goal, int swarm_size, int max_steps, double delta, double low_delta_count_limit) {
     pso_settings_t *settings = (pso_settings_t *)malloc(sizeof(pso_settings_t));
     if (settings == NULL) { return NULL; }
 
