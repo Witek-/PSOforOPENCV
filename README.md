@@ -7,7 +7,7 @@ It was adopted to work with OpenCV and Visual Studio. It allows easy implementat
 ## Main modifications:
 1. Multicore processing. The original solution was extremaly slow on multicore processors. In this version one can simply define the number of threads
 to be used and the particles will be distributed to all the cores making the algorithm much faster. You can set the number of threads using `omp_set_num_threads(12);`.
-Make sure you have enabled multiprocessor compilation na openMP.
+
 2. Improved stop condition. The original implementation would stop immediately after no better solutoin was found. 
 
 
